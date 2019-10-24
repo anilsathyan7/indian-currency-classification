@@ -4,7 +4,7 @@ An application for classifying new indian currency notes using **random forest**
 
 Here we use **hu moments**(shape), **haralick**(texture) and **colour histogram**(colour) as global features and **bag of visual words**(BOVW) with **SIFT** as a local feature descriptor. It is then trained using a random forest classifier using scikit-learn library.
 
-Finally during **inference**, we extract the **rectangular ROI's** from the preprocessed input image using opencv(cropped rotated contour) and then use the trained model to **predict** the class labels.
+Finally during **inference**, we extract the **rectangular ROI's** from the preprocessed image using opencv(cropped rotated contours) and **predicts** the class labels using the trained random forest **model**.
 
 
 ## Dependencies
