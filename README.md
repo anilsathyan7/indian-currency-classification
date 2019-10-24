@@ -29,13 +29,12 @@ python currency.py # Currency classification
 
 **Best Parameters:-**
 
-*bootstrap=True, criterion='gini',
-
+```
+bootstrap=True, criterion='gini',
 min_samples_leaf=1, min_samples_split=2,
-
 min_weight_fraction_leaf=0.0, n_estimators=200,
-
-n_jobs=-1,verbose=1*
+n_jobs=-1,verbose=1
+```
 
 **Accuracy**: 0.98 (+/- 0.01)
 
