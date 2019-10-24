@@ -1,6 +1,6 @@
 # Indian-Currency-Classification
 
-An application for classifying new indian currency notes using **random forest** classifier. It is implemented with the help of **opencv** and **scikit-learn** library. The dataset used for training consists of **1050** images of new currency notes(INR). It includes denomination of **10,20,50,100,200,500 and 2000** rupees notes(i.e. 150 each).
+An application for classifying new indian currency notes using **random forest** classifier. It is implemented with the help of **opencv** and **scikit-learn** library. The dataset used for training consists of **1050** images of new currency notes(INR). It includes denomination of **10, 20, 50, 100, 200, 500 and 2000** rupees notes(i.e. 150 each).
 
 Here we use **hu moments**(shape), **haralick**(texture) and **colour histogram**(colour) as global features and **bag of visual words**(BOVW) with **SIFT** as a local feature descriptor. It is then trained using a random forest classifier, using scikit learn library.
 
@@ -25,7 +25,14 @@ python predict.py # Model inference
 python currency.py # Currency classification
 ```
 
-### Results
+### Training Results
+
+**Best Parameters:-**
+
+*bootstrap=True, criterion='gini',
+min_samples_leaf=1, min_samples_split=2,
+min_weight_fraction_leaf=0.0, n_estimators=200,
+n_jobs=-1,verbose=1*
 
 **Accuracy**: 0.98 (+/- 0.01)
 
@@ -62,5 +69,3 @@ Anil Sathyan
 * "https://towardsdatascience.com/optimizing-hyperparameters-in-random-forest-classification-ec7741f9d3f6"
 * "https://stackoverflow.com/questions/11627362/how-to-straighten-a-rotated-rectangle-area-of-an-image-using-opencv-in-python/48553593#48553593"
 * "https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contour_features/py_contour_features.html"
-
-
