@@ -1,6 +1,6 @@
 # Indian-Currency-Classification
 
-An application for classifying new indian currency notes using **random forest** classifier. It is implemented with the help of **opencv** and **scikit-learn** library. The dataset used for training consists of **1050** images of new currency notes(INR). It includes denomination of **10, 20, 50, 100, 200, 500 and 2000** rupees notes(i.e. 150 each).
+An application for classifying new indian currency notes using **random forest** classifier. It is implemented with the help of **opencv** and **scikit-learn** library. The dataset used for training consists of **1050** images of new currency notes(INR). It includes denominations of **10, 20, 50, 100, 200, 500 and 2000** rupees notes(i.e. 7 classes with 150 each).
 
 Here we use **hu moments**(shape), **haralick**(texture) and **colour histogram**(colour) as global features and **bag of visual words**(BOVW) with **SIFT** as a local feature descriptor. It is then trained using a random forest classifier, using scikit learn library.
 
@@ -36,7 +36,7 @@ min_weight_fraction_leaf=0.0, n_estimators=200,
 n_jobs=-1,verbose=1
 ```
 
-**Accuracy**: 0.98 (+/- 0.01)
+**Cross Validation Accuracy**: 0.98 (+/- 0.01)
 
 **Confusion Matrix:-**
 
