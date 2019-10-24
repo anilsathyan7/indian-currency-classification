@@ -9,9 +9,9 @@ Finally during **inference**, we extract the **rectangular ROI's** from the prep
 
 ## Dependencies
 
-* python3, scikit-learn
-* opencv+contrib, mahotas
-* pickle, joblib
+* Python3, Scikit-learn
+* Opencv+contrib, Mahotas
+* Pickle, Joblib
 
 ## Demo
 
