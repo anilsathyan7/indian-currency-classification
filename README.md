@@ -25,9 +25,21 @@ python predict.py # Model inference
 python currency.py # Currency classification
 ```
 
-### Network
+### Results
 
-![Screenshot](scramble_model.png)
+**Accuracy**: 0.98 (+/- 0.01)
+
+**Confusion Matrix:-**
+ | 10 | 20 | 50 | 100 | 200 | 500 | 2000|
+ | --- |  --- | --- | --- | --- | --- |
+ | 28| 0 |  1 |   0 |   2 |   0 |   0 |
+ | 0 | 24 |  0 |   0 |   0 |   1 |   0|
+ | 0 | 0  | 27 |   0 |   0 |   0 |   0|
+ | 0 | 0  |  0 |  32 |   0 |   0 |   0|
+ | 2 | 0  |  0 |   0 |  31 |   0 |   0|
+ | 0 | 1  |  0 |   0 |   0 |  26 |   0|
+ | 0 | 0  |  0 |   0 |   0 |   0 |  35|
+
 
 ### Sample Output
 
