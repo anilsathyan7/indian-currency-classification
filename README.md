@@ -1,4 +1,4 @@
-# indian-currency-classification
+# Indian-Currency-Classification
 
 An application for **classifying** new indian **currency notes** using **random forest** classifier.It is implemented with the help of **opencv and scikit-learn library**.The **dataset** used for training consists of **1050** images of new currency notes(INR).It includes denomination of **10,20,50,100,200,500 and 2000** rupees notes(i.e. 150 each).
 
